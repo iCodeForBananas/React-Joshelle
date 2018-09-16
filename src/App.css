@@ -1,0 +1,8 @@
+body,
+html {
+  background: url(/images/background.gif) center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
