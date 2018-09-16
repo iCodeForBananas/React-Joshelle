@@ -1,8 +1,10 @@
 body,
 html {
-  background: url(/images/background.gif) center;
+  background: url(/backgrounds/1.gif) center no-repeat;
+  background-size: cover;
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }

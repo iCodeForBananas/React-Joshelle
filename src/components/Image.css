@@ -3,16 +3,3 @@
   max-height: 300px;
   position: absolute;
 }
-
-.Image-spin {
-  animation: Image-spin infinite 0.42s ease-in;
-}
-
-@keyframes Image-spin {
-  50% {
-    transform: rotate(20deg);
-  }
-  100% {
-    transform: rotate(-20deg);
-  }
-}

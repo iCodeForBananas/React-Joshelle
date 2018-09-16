@@ -2,7 +2,7 @@
 import React from "react";
 import "./Images.css";
 import Image from "./Image";
-import sample from "lodash/sample";
+import sampleSize from "lodash/sampleSize";
 import range from "lodash/range";
 
 type Props = {};
@@ -11,12 +11,12 @@ type State = {
   currentImages: {
     left: number,
     top: number,
-    src: string
+    src: number
   }[]
 };
 
 class Images extends React.Component<Props, State> {
-  images: Array<number> = range(1, 33);
+  images: Array<number> = range(1, 41);
 
   state = {
     currentImages: []
@@ -26,23 +26,23 @@ class Images extends React.Component<Props, State> {
     this.updateImages();
   }
 
-  randomIntFromInterval(min: number = 0, max: number = 90): number {
+  randomIntFromInterval(min: number = 0, max: number = 100): number {
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
 
   updateImages() {
+    const images = sampleSize(this.images, 10);
+
     this.setState(
       {
-        currentImages: [
-          {
-            top: this.randomIntFromInterval(),
-            left: this.randomIntFromInterval(),
-            src: sample(this.images)
-          }
-        ]
+        currentImages: images.map((image: number) => ({
+          top: Math.max(0, this.randomIntFromInterval(0, window.innerHeight) - 200),
+          left: Math.max(0, this.randomIntFromInterval(0, window.innerWidth) - 200),
+          src: image
+        }))
       },
       () => {
-        setTimeout(() => this.updateImages(), 5000);
+        setTimeout(() => this.updateImages(), 3450);
       }
     );
   }
