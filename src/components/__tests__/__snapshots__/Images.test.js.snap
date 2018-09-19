@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <img
+    alt=""
+    className="Image-img Image-spin"
+    src="/images/54.gif"
+    style={
+        Object {
+            "marginLeft": "307px",
+            "marginTop": "6px",
+          }
+    }
+/>,
+  <img
+    alt=""
+    className="Image-img Image-spin"
+    src="/images/5.gif"
+    style={
+        Object {
+            "marginLeft": "722px",
+            "marginTop": "567px",
+          }
+    }
+/>,
+  <img
+    alt=""
+    className="Image-img Image-spin"
+    src="/images/34.gif"
+    style={
+        Object {
+            "marginLeft": "304px",
+            "marginTop": "326px",
+          }
+    }
+/>,
+  <img
+    alt=""
+    className="Image-img Image-spin"
+    src="/images/28.gif"
+    style={
+        Object {
+            "marginLeft": "227px",
+            "marginTop": "477px",
+          }
+    }
+/>,
+  <img
+    alt=""
+    className="Image-img Image-spin"
+    src="/images/11.gif"
+    style={
+        Object {
+            "marginLeft": "316px",
+            "marginTop": "0px",
+          }
+    }
+/>,
+  <img
+    alt=""
+    className="Image-img Image-spin"
+    src="/images/33.gif"
+    style={
+        Object {
+            "marginLeft": "544px",
+            "marginTop": "425px",
+          }
+    }
+/>,
+  <img
+    alt=""
+    className="Image-img Image-spin"
+    src="/images/39.gif"
+    style={
+        Object {
+            "marginLeft": "536px",
+            "marginTop": "306px",
+          }
+    }
+/>,
+  <img
+    alt=""
+    className="Image-img Image-spin"
+    src="/images/49.gif"
+    style={
+        Object {
+            "marginLeft": "287px",
+            "marginTop": "284px",
+          }
+    }
+/>,
+  <img
+    alt=""
+    className="Image-img Image-spin"
+    src="/images/13.gif"
+    style={
+        Object {
+            "marginLeft": "17px",
+            "marginTop": "171px",
+          }
+    }
+/>,
+  <img
+    alt=""
+    className="Image-img Image-spin"
+    src="/images/42.gif"
+    style={
+        Object {
+            "marginLeft": "687px",
+            "marginTop": "0px",
+          }
+    }
+/>,
+]
+`;
