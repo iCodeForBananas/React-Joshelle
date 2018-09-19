@@ -1,3 +1,3 @@
 # react-joshelle
 
-Hey it's a fun app!
+It's just as weird as you think it is: http://joshelle.surge.sh/
