@@ -4,6 +4,7 @@
   top: 100px;
   left: 100px;
   position: absolute;
+  z-index: 1;
 }
 
 .VideoPlayer-tv {

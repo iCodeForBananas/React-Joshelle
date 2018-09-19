@@ -16,7 +16,7 @@ type State = {
 };
 
 class Images extends React.Component<Props, State> {
-  images: Array<number> = range(1, 41);
+  images: Array<number> = range(1, 60);
 
   state = {
     currentImages: []

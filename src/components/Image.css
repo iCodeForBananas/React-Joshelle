@@ -2,4 +2,18 @@
   max-width: 300px;
   max-height: 300px;
   position: absolute;
+  z-index: 0;
+}
+
+.Image-spin {
+  animation: Image-spin infinite 0.421s ease;
+}
+
+@keyframes Image-spin {
+  50% {
+    transform: scale(1.1, 1.1) rotate(-2deg);
+  }
+  100% {
+    transform: scale(1, 1) rotate(2deg);
+  }
 }

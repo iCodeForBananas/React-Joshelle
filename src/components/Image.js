@@ -9,7 +9,9 @@ type Props = {
 };
 
 const Image = function({ src, left, top }: Props) {
-  return <img style={{ marginLeft: left + "px", marginTop: top + "px" }} className="Image-img" src={src} alt="" />;
+  return (
+    <img style={{ marginLeft: left + "px", marginTop: top + "px" }} className="Image-img Image-spin" src={src} alt="" />
+  );
 };
 
 export default Image;
