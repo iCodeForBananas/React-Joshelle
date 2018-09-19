@@ -9,6 +9,15 @@
   margin-right: 2px;
 }
 
+@media only screen and (max-width: 440px) {
+  .btn3d {
+    position: relative;
+    font-size: 40px;
+    margin: 30px auto 0;
+    display: block;
+  }
+}
+
 .btn3d:active:focus,
 .btn3d:focus:hover,
 .btn3d:focus {

@@ -17,3 +17,11 @@
     transform: scale(1, 1) rotate(2deg);
   }
 }
+
+@media only screen and (max-width: 440px) {
+  .Image-img {
+    max-width: 150px;
+    max-height: 150px;
+    z-index: 2;
+  }
+}

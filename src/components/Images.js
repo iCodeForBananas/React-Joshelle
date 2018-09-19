@@ -36,8 +36,8 @@ class Images extends React.Component<Props, State> {
     this.setState(
       {
         currentImages: images.map((image: number) => ({
-          top: Math.max(0, this.randomIntFromInterval(0, window.innerHeight) - 200),
-          left: Math.max(0, this.randomIntFromInterval(0, window.innerWidth) - 200),
+          top: Math.max(0, this.randomIntFromInterval(0, window.outerHeight) - 200),
+          left: Math.max(0, this.randomIntFromInterval(0, window.outerWidth) - 200),
           src: image
         }))
       },

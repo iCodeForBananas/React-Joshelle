@@ -4,7 +4,7 @@
   top: 100px;
   left: 100px;
   position: absolute;
-  z-index: 1;
+  z-index: 3;
 }
 
 .VideoPlayer-tv {
@@ -37,4 +37,16 @@
   position: relative;
   z-index: 1;
   margin: 20px 0 0 20px;
+}
+
+@media only screen and (max-width: 440px) {
+  .VideoPlayer-container {
+    top: 40px;
+    left: -50px;
+    height: 200px;
+  }
+
+  .VideoPlayer-container video {
+    height: 160px;
+  }
 }
