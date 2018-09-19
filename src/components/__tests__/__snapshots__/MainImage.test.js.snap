@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="MainImage-rainbow MainImage-spin"
+>
+  <img
+    alt=""
+    className="MainImage-image"
+    src="/josh.gif"
+  />
+</div>
+`;

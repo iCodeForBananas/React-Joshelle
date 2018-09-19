@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="VideoPlayer-spin VideoPlayer-container"
+>
+  <div
+    className="VideoPlayer-tv"
+  />
+  <video
+    autoPlay={true}
+    className="VideoPlayer-iframe"
+    height="300"
+    id="VideoPlayer-video"
+    loop={true}
+    width="400"
+  >
+    <source
+      src="/heyheyhey.mp4"
+    />
+  </video>
+</div>
+`;

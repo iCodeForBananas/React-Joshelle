@@ -2,9 +2,13 @@
 import React from "react";
 import "./VideoPlayer.css";
 
-class VideoPlayer extends React.Component {
+type Props = {};
+type State = {};
+
+class VideoPlayer extends React.Component<Props, State> {
   componentDidMount() {
-    document.getElementById("VideoPlayer-video").play();
+    const videoPlayerEl: HTMLVideoElement = document.getElementById("VideoPlayer-video");
+    videoPlayerEl && videoPlayerEl.play();
   }
 
   render() {
